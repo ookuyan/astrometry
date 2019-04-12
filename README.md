@@ -1,7 +1,7 @@
 # astrometry
 An astrometric solution tool which use 'astrometry.net'.
 
-##Usage
+## Usage
 
 Perform astrometric transformation on input image.
 
@@ -9,8 +9,8 @@ To find wcs transformation this method is use 'astrometry.net' app.
 If the image center coordinates, image size and pixel scale are
 entered, the solution will be reached quickly.
 
-Parameters
-----------
+### Parameters
+
 name : str or list
     The name of the image (fits).
 
@@ -36,13 +36,11 @@ wcs_output : bool
     Write wcs header of each image to folder with suffix '.wcs'.
     Default is False.
 
-Returns
--------
+### Returns
     result : list
     Returns created images.
 
-Examples
---------
+### Examples
 
 ```python
 imgs = sorted(glob('*.fits'))
