@@ -11,7 +11,7 @@ entered, the solution will be reached quickly.
 
 ### Parameters
 
-name : str or list
+name : str or list.
     The name of the image (fits).
 
 ra : str or None
