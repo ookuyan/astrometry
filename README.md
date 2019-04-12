@@ -44,6 +44,9 @@ result : list
 ### Examples
 
 ```python
+from astrometry import solve_field
+
+
 imgs = sorted(glob('*.fits'))
 
 h = fits.getheader(imgs[0])
