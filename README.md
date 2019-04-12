@@ -53,5 +53,5 @@ radius = 0.35
 scale = (0.6, 0.65)
 
 for img in imgs:
-	solve_field(img, ra=ra, dec=dec, radius=radius, scale=scale)
+    solve_field(img, ra=ra, dec=dec, radius=radius, scale=scale)
 ```
