@@ -37,7 +37,8 @@ wcs_output : bool
     Default is False.
 
 ### Returns
-    result : list
+
+result : list
     Returns created images.
 
 ### Examples
